@@ -13,7 +13,7 @@ RUN apt-get update -qq && \
     git clone https://github.com/pglombardo/PasswordPusher.git && \
     touch ${APP_ROOT}/log/private.log && \
     cd ${APP_ROOT} && \
-    gem install bundler && \
+    gem install bundler -v 1.16.1 && \
     gem install thor && \
     chown -R 1001:root ${APP_ROOT}
 

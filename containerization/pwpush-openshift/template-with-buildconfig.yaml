@@ -61,7 +61,7 @@ objects:
         uri: https://github.com/pglombardo/PasswordPusher.git
     strategy:
       dockerStrategy:
-        dockerfilePath: containerization/passwordpusher-openshift/Dockerfile
+        dockerfilePath: containerization/pwpush-openshift/Dockerfile
     output:
       to:
         kind: ImageStreamTag
